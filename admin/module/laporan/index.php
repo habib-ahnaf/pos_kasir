@@ -121,13 +121,13 @@
 									<a href="index.php?page=laporan" class="btn btn-success">
 										<i class="fa fa-refresh"></i> Refresh</a>
 										
-									<!-- <?php if(!empty($_GET['hari'])){?>
+									<?php if(!empty($_GET['hari'])){?>
 										<a href="excel.php?hari=cek&tgl=<?= $_POST['hari'];?>" class="btn btn-info"><i class="fa fa-download"></i>
 										Excel</a>
 									<?php }else{?>
 										<a href="excel.php" class="btn btn-info"><i class="fa fa-download"></i>
 										Excel</a>
-									<?php }?> -->
+									<?php }?>
 								</td>
 								</tr>
 							</table>
